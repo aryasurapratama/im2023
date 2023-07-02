@@ -17,7 +17,7 @@ for ($i=0; $i <500 ; $i++) {
         echo  color('green',"[" . date("H:i:s") . "] ")."Nick name : $account\n";
         echo  color('green',"[" . date("H:i:s") . "] ")."saldo : $saldo\n";
 
-        $codeclaim = "1uzpns" ;
+        $codeclaim = "hshshj" ;
 
         $claimcode = curl('https://api.im2019.com/api/activity/active_code', '{"verification_code":"' . $codeclaim . '"}', $token);
         echo $claimcode;
